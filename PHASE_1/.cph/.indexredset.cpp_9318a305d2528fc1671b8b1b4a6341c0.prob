@@ -1,0 +1,1 @@
+{"name":"Local: indexredset","url":"d:\\D drive\\c++ file\\PHASE_1\\indexredset.cpp","tests":[{"id":1729605553333,"input":"1\n6\nadd 4\nadd 1\nadd 6\nfind 1\nfindpos 7\nfindpos 6","output":"4\n3\n2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\D drive\\c++ file\\PHASE_1\\indexredset.cpp","group":"local","local":true}

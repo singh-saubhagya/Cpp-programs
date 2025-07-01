@@ -1,0 +1,1 @@
+{"name":"Local: TowersAZ101","url":"d:\\D drive\\c++ file\\PHASE_1\\TowersAZ101.cpp","tests":[{"id":1729522581083,"input":"3\n5\n3 2 5 1 4\n4\n1 1 1 1\n5\n5 4 5 3 2 \n","output":"2\n4\n2\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\D drive\\c++ file\\PHASE_1\\TowersAZ101.cpp","group":"local","local":true}

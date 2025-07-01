@@ -1,0 +1,1 @@
+{"name":"Local: buymaximumobj","url":"d:\\D drive\\c++ file\\PHASE_1\\buymaximumobj.cpp","tests":[{"id":1729089400885,"input":"3\n5 5\n1 3 2 4 5\n5 10\n1 3 2 4 5\n5 20\n1 3 2 4 5","output":"2\n4\n5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\D drive\\c++ file\\PHASE_1\\buymaximumobj.cpp","group":"local","local":true}

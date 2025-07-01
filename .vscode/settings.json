@@ -1,0 +1,15 @@
+{
+  "terminal.integrated.defaultProfile.windows": "Powershell",
+  "files.associations": {
+    "queue": "cpp",
+    "iostream": "cpp"
+  },
+  "C_Cpp.default.compilerPath": "/opt/homebrew/bin/g++-15",
+  "code-runner.runInTerminal": true,
+  "code-runner.executorMap": {
+    "cpp": "cd $dir && /opt/homebrew/bin/g++-15 $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
+  },
+  "code-runner.executorMapByFileExtension": {
+    ".cpp": "cd $dir && /opt/homebrew/bin/g++-15 $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
+  }
+}

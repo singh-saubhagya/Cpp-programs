@@ -1,0 +1,1 @@
+{"name":"Local: GoodSequenceAZ101","url":"d:\\D drive\\c++ file\\PHASE_1\\GoodSequenceAZ101.cpp","tests":[{"id":1729192230809,"input":"3\n5\n3 2 3 3 1\n4\n3 2 2 4\n5\n6 6 1 1 2\n","output":"1\n2\n4\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\D drive\\c++ file\\PHASE_1\\GoodSequenceAZ101.cpp","group":"local","local":true}

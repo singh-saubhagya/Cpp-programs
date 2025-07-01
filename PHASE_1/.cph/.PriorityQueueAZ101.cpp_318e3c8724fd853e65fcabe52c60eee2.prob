@@ -1,0 +1,1 @@
+{"name":"Local: PriorityQueueAZ101","url":"d:\\D drive\\c++ file\\PHASE_1\\PriorityQueueAZ101.cpp","tests":[{"id":1729414961899,"input":"1\n6\nadd 4\nadd 5\nadd 3\nprint\nremove\nprint\n","output":"5\n4\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\D drive\\c++ file\\PHASE_1\\PriorityQueueAZ101.cpp","group":"local","local":true}

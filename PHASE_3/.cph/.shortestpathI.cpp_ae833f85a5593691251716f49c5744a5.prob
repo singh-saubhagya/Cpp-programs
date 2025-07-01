@@ -1,0 +1,1 @@
+{"name":"Local: shortestpathI","url":"d:\\D drive\\c++ file\\PHASE_3\\shortestpathI.cpp","tests":[{"id":1741607693131,"input":"3 4\n1 2 6\n1 3 2\n3 2 3\n1 3 4","output":"0 5 2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\D drive\\c++ file\\PHASE_3\\shortestpathI.cpp","group":"local","local":true}

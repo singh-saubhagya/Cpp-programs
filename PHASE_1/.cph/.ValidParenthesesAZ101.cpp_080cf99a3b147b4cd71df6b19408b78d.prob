@@ -1,0 +1,1 @@
+{"name":"Local: ValidParenthesesAZ101","url":"d:\\D drive\\c++ file\\PHASE_1\\ValidParenthesesAZ101.cpp","tests":[{"id":1730182787311,"input":"3\n(())))\n()()(()\n))((","output":"2\n1\n4\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\D drive\\c++ file\\PHASE_1\\ValidParenthesesAZ101.cpp","group":"local","local":true}

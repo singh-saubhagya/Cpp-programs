@@ -1,0 +1,1 @@
+{"name":"Local: random","url":"d:\\D drive\\c++ file\\random.cpp","tests":[{"id":1739666546250,"input":"S.#...\n..#...\n#.#.#.\n....#.\n####..\nF.....","output":"19"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\D drive\\c++ file\\random.cpp","group":"local","local":true}

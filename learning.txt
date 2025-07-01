@@ -1,0 +1,1 @@
+1. In place of concatination use % fn to genearate character after length > n , 

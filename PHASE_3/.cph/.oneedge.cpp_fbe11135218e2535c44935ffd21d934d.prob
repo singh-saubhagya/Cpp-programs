@@ -1,0 +1,1 @@
+{"name":"Local: oneedge","url":"d:\\D drive\\c++ file\\PHASE_3\\oneedge.cpp","tests":[{"id":1740343873598,"input":"4 3\n1 2\n2 3\n3 4","output":"0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\D drive\\c++ file\\PHASE_3\\oneedge.cpp","group":"local","local":true}

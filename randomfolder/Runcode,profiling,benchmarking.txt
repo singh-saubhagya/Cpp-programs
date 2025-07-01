@@ -1,0 +1,21 @@
+
+Here are the promts to run a code on any terminal(compiler must be present)
+
+use cd to move the directory where the file is stored
+e.g. cd Desktop
+
+1.      g++ -o executablefilename filename.cpp
+2.      .\executablefilename
+
+
+
+For profiling use command 
+1.  g++ -pg -o executablefilename filename.cpp 
+2.  .\executablefilename
+3.  gprof .\executablefilename.exe gmon.out > analysis.txt
+
+After these command a text file name analysis will be created and you will find all the details there
+
+
+For benchmarking use command 
+

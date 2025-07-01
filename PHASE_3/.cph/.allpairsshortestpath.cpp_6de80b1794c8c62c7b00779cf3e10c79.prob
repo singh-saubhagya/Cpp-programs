@@ -1,0 +1,1 @@
+{"name":"Local: allpairsshortestpath","url":"d:\\D drive\\c++ file\\PHASE_3\\allpairsshortestpath.cpp","tests":[{"id":1742504989405,"input":"4\n0 3 1 1\n6 0 400 1\n2 4 0 1\n1 1 1 0\n4 1 2 3","output":"17 23 404 0 "}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\D drive\\c++ file\\PHASE_3\\allpairsshortestpath.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: magicalcandy","url":"d:\\D drive\\c++ file\\PHASE_1\\magicalcandy.cpp","tests":[{"id":1729416349258,"input":"3\n4 2\n4 3 5 1\n1 2\n4\n6 3\n3 2 2 5 1 2\n","output":"9\n6\n10\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\D drive\\c++ file\\PHASE_1\\magicalcandy.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: rainwateroptima","url":"d:\\D drive\\c++ file\\PHASE_1\\rainwateroptima.cpp","tests":[{"id":1737813849392,"input":"3\n3\n3 0 2\n5\n2 0 0 4 3\n5\n1 2 3 1 5","output":"2 \n4\n2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\D drive\\c++ file\\PHASE_1\\rainwateroptima.cpp","group":"local","local":true}

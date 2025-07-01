@@ -1,0 +1,1 @@
+{"name":"Local: queueusing2stack","url":"d:\\D drive\\c++ file\\PHASE_1\\queueusing2stack.cpp","tests":[{"id":1729164572300,"input":"1\n7\npush 3\npush 5\npop\nfront\npush 7\npop\npop\n","output":"3\n5\n5\n7\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\D drive\\c++ file\\PHASE_1\\queueusing2stack.cpp","group":"local","local":true}

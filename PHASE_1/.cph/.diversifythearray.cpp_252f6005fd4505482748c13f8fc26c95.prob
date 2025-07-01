@@ -1,0 +1,1 @@
+{"name":"Local: diversifythearray","url":"d:\\D drive\\c++ file\\PHASE_1\\diversifythearray.cpp","tests":[{"id":1738936909699,"input":"3\n3 10\n1 2 3\n4 2\n1 1 2 2\n6 2\n2 3 3 2 4 4","output":"3\n6\n14"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\D drive\\c++ file\\PHASE_1\\diversifythearray.cpp","group":"local","local":true}

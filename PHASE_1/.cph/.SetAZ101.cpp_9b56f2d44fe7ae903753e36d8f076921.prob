@@ -1,0 +1,1 @@
+{"name":"Local: SetAZ101","url":"d:\\D drive\\c++ file\\PHASE_1\\SetAZ101.cpp","tests":[{"id":1729426606769,"input":"1\n7\nadd 3\nadd 2\nadd 7\nprint\nfind 2\nerase 2\nfind 2\n","output":"2 3 7 \nYES\nNO\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\D drive\\c++ file\\PHASE_1\\SetAZ101.cpp","group":"local","local":true}

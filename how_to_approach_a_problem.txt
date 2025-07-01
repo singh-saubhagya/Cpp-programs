@@ -1,0 +1,20 @@
+Step 1: Understand the problem: read it more, use test cases to understand. 2 mins
+Step 2: Find out the core of the problem. 5 mins
+
+Most time consuming steps: 30 mins
+Step 3: Use pen and paper and design an approach ,  which fits the constraints, use classifier,and run on the best test case .
+Step 4: Now if you have build the logic according to the constraints, its time to formulate, Formulate means ,how 
+are you going to structure you code based on the logic which you have build , take 2 - 3 mins.
+
+Spend more time on the above steps so that you , don't need to chagne the logic behind your code.
+
+
+Step 5: Start coding , Think of base cases if any , and add it : 20 mins
+Step 6: Debugging , 10 mins
+
+
+Habits:
+-Always write base case for n=1 , n=0 
+-Think in right dn quickly
+-Look into constraints and then build logic
+-Extract the core of the problem 

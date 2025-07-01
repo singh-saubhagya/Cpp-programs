@@ -1,0 +1,1 @@
+{"name":"Local: bellmanfordrevisited","url":"d:\\D drive\\c++ file\\PHASE_3\\bellmanfordrevisited.cpp","tests":[{"id":1742387113446,"input":"4 5\n1 2 3\n2 4 -1\n1 3 -2\n3 4 7\n1 4 4","output":"5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\D drive\\c++ file\\PHASE_3\\bellmanfordrevisited.cpp","group":"local","local":true}

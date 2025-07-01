@@ -1,0 +1,1 @@
+{"name":"Local: treebasicquest","url":"d:\\D drive\\c++ file\\PHASE_3\\treebasicquest.cpp","tests":[{"id":1743943072958,"input":"9\n1 2\n2 3 \n2 4 \n1 5\n5 7\n5 6\n7 8 \n7 9 ","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\D drive\\c++ file\\PHASE_3\\treebasicquest.cpp","group":"local","local":true}

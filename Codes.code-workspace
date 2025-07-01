@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Web development"
+		},
+		{
+			"path": "../learning_git"
+		}
+	],
+	"settings": {
+		"terminal.integrated.defaultProfile.windows": "Powershell",
+		"files.associations": {
+			"queue": "cpp",
+			"iostream": "cpp",
+			"vector": "cpp",
+			"set": "cpp"
+		},
+		"liveServer.settings.multiRootWorkspaceName": "Web development"
+	}
+}

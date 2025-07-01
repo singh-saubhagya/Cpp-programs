@@ -1,0 +1,1 @@
+{"name":"Local: countsubarrays","url":"d:\\D drive\\c++ file\\countsubarrays.cpp","tests":[{"id":1739140329103,"input":"2\n5\n1 4 2 3 5\n1\n5","output":"9\n1"},{"id":1739142394814,"input":"1\n5 \n1 1 1 1 1","output":"15"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\D drive\\c++ file\\countsubarrays.cpp","group":"local","local":true}

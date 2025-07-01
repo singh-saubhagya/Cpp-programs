@@ -1,0 +1,28 @@
+    1. Use of break statement whenever necessary.
+2. Make a base case during recursion.
+3. Visualize the code in you mind how is it running and everything
+4. Never use concatenation inside loop ,tle happens
+5. Use curly braces for if else always!
+6. Always check with the edge cases(maximum and minimum value)!
+7. Formatting issue or using modulo on double variable
+8. Take a test case which covers all the functionality of code.
+9. Never use built in pow function 
+10. GO through the debugging checklist of Algozenith.
+11. Always dry run code with strong test case.
+12. Never typecaste double to int instead of this use floor or ceil function.
+13. Use rand() function to generate test case.
+14. To convert integer to char add '0' to integer and store it in char.
+15. Never play with double variable like finding its digits after decimal or applying condion 
+    on floating point it won't work most of the time due to floating point accuracy issue.
+16. Storing double variable in string using to_string function is saved at differently means it is saved to different no 
+    of significant digits while the double varible saved it to different no of significant digits!.
+17. Use long long in place of int always !!!!!!!!!!
+18. Never compare integer to double varible to check whether it is floating point of not
+ in place of this use condition whether the mod is equal to zero or not !!!!!    
+19. Don't create vector of large size like 1e18 with datatype long long or int as it will give
+    error like bad_alloc!  
+20. Always return value from a non void function.
+21. Always use cin.ignore() before taking string as an input to avoid \n to terminate the cin>>str ,
+\n is caused while taking int,double,char as an input!
+22. Use cout flush whenever necessary and avoid using endl as it explicitly flush \
+23. Run time error can also be caused if defining the large size array of 10^10 

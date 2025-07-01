@@ -1,0 +1,11 @@
+Q1:How to use bash shell?
+soln1:
+>open command terminal
+>type bash
+>You are then on the bash shell, now you can use cd,ls,mkdir,touch and other commands,
+
+soln2:
+>open ubuntu app
+>type command cd /mnt
+>type ls -al(to move into directory available) 
+>use cd to move to the directory needed
