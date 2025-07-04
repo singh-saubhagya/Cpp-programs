@@ -16,11 +16,10 @@ void solve(){
    lli  ans=0;
    for(auto a:m)
    {
-        for(lli  p=30;p>=1;p--)
+        for(lli  p=31;p>=1;p--)
         {
             lli val=(1LL<<p)-a.first;
-            if(val<0)
-            break;
+           
             
                 if(val>=a.first)
                 {
@@ -32,8 +31,9 @@ void solve(){
                         ans+=x*(x-1)/2;
                     }
                     else 
-                    {ans+=m[val]*m[a.first];
-                  }
+                    {
+                        ans+=m[val]*m[a.first];
+                    }
                     }
                 }
                 
