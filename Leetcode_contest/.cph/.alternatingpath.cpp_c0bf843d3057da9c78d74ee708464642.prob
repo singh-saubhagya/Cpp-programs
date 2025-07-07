@@ -1,0 +1,1 @@
+{"name":"Local: alternatingpath","url":"/Users/saubhagya/codes/c++ files/Leetcode_contest/alternatingpath.cpp","tests":[{"id":1751880487833,"input":"2 3\n0 1 4 \n3 2 0","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/saubhagya/codes/c++ files/Leetcode_contest/alternatingpath.cpp","group":"local","local":true}

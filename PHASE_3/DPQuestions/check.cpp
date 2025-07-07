@@ -1,42 +1,61 @@
-#include <bits/stdc++.h>
+#include<bits/stdc++.h>
 using namespace std;
-#define inf 1e9
+ typedef long long lli;
+    lli nn;
+    lli mm;
+    vector<vector<int>>wc;
+    vector<vector<vector<lli>>>dp;
+    #define inf 1e18
+    lli rec(lli i, lli j, lli flag)
+    {
+        if(i==nn-1 && j==mm-1)
+        {
+            return nn*mm;
+        }
+        if(i>=nn || j>=mm)
+        return inf;
 
-int n, k;
-vector<vector<bool>> mark;
-vector<vector<int>> dp;
-vector<int> arr;
+        if(dp[i][j][flag]!=-1)
+            return dp[i][j][flag];
 
-int rec(int i, int j) {
-    if (i == -1 && j == 0)
-        return 0;
-
-    if (i + 1 < j) return inf;
-
-    if (mark[i][j]) return dp[i][j];
-
-    mark[i][j] = true;
-    int ans = inf;
-    int lm = arr[i];
-
-    for (int x = i; x >= 0; x--) {
-        lm = max(arr[x], lm);
-        int temp = rec(x - 1, j - 1);
-        if (temp != inf)
-            ans = min(ans, lm + temp);
+        lli ans=inf;
+        lli ec=(i+1)*(j+1);
+        lli wt=wc[i][j];
+        if(flag==1)
+        {
+            ans=min(ans,rec(i+1,j,0)+ec);
+            ans=min(ans,rec(i,j+1,0)+ec);
+        }
+        else 
+        {
+             ans=min(ans,rec(i,j,1)+wt);
+             ans=min(ans,rec(i,j,1)+wt);
+        }   
+        return dp[i][j][flag]=ans;
+    }
+    long long minCost(int n, int m, vector<vector<int>>& waitCost) {
+        dp=vector<vector<vector<lli>>>(n+1,vector<vector<lli>>(m+1,vector<lli>(3,-1)));
+        nn=n;
+        mm=m;
+        wc=waitCost;
+        cout<<rec(0,0,1);
+    }
+    signed main()
+    {
+        int n,m;
+        cin>>n>>m;
+        vector<vector<int>> waitCost;
+        waitCost.resize(n);
+        for(int i=0;i<n;i++)
+        {waitCost[i].resize(m);
+            for(int j=0;j<m;j++)
+            {
+                cin>>waitCost[i][j];
+            }
+        }
+        minCost(n,m,waitCost);
+        
+       
     }
 
-    return dp[i][j] = ans;
-}
 
-int main() {
-    cin >> n >> k;
-    arr.resize(n);
-    for (int i = 0; i < n; i++)
-        cin >> arr[i];
-
-    mark.assign(n + 1, vector<bool>(k + 1, false));
-    dp.assign(n + 1, vector<int>(k + 1, 0));
-
-    cout << rec(n - 1, k) << endl;
-}
