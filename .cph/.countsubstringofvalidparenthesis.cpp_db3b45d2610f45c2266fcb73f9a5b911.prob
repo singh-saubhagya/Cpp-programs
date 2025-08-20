@@ -1,0 +1,1 @@
+{"name":"Local: countsubstringofvalidparenthesis","url":"/Users/saubhagya/codes/c++ files/countsubstringofvalidparenthesis.cpp","tests":[{"id":1752836092561,"input":"(()()(()))","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/saubhagya/codes/c++ files/countsubstringofvalidparenthesis.cpp","group":"local","local":true}
