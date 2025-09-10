@@ -14,7 +14,7 @@ There is a special case when prev is 2 ,  and placing 0 at current level is vali
 #include<bits/stdc++.h>
 using namespace std;
 typedef long long lli;
-#define enld '\n'
+#define endl '\n'
 int n;
 int dp[100003][10];
 int rec(int level, int x)
@@ -43,7 +43,7 @@ void solve()
 {
     
     cin>>n;
-    memset(dp,-1,sizeof(dp));
+   
     cout<<rec(0,0);
 }
 signed main()
