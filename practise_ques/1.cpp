@@ -1,47 +1,31 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 typedef long long lli;
-#define endl '\n'
-#define tab '\t'
 
-// // logic behind this code 
-// (x*10^d + y) %(x+y)==0, then for some d, lets say d=3 , 1000x+y, 999x+ x+y, we can rewrite the eqn as 
-// 999x%(x+y)==0 + (x+y)%x+y, now we are left with this , 999x%(x+y)==0 only, so we will just calculta the divisor of x and subtract y from it , 
-// d is no digits of y . 
-void solve()
-{
-  lli x;
-  cin>>x;
-  vector<lli> arr={0,9,99,999,9999,99999,999999,9999999,99999999,9999999999};
-  int n=arr.size();
-  lli pw=1;
-  lli ans;
-  bool flag=false;
-  for(int i=1;i<n;i++)// i is here no of digit.
-  {
-    lli val=arr[i]*x;
-    lli low=pw;
-    lli high=pw*10-1;
-    for(int j=low;j<=min(high,val);j++)
-    {
-      if(val%j==0)
-      {
-        ans=j-x;
-        if(ans>0)
-        {
-          flag=true;
-          //cout<<arr[i]<<" "<<i<<" "<<low<<" "<<high<<" "<<j<<endl;
-          break;
-        }
-      }
-      if(flag)break;
+void solve() {
+    lli n;
+    cin >> n;
+    
+    vector<lli> l(n), r(n);
+    lli l_min = 1e9 + 1, r_max = 0;
+    lli sum = 0;
+    
+    for (lli i = 0; i < n; i++) {
+        cin >> l[i] >> r[i];
+        l_min = min(l_min, l[i]);
+        r_max = max(r_max, r[i]);
     }
-    pw=pw*10;
-    }
-    cout<<ans<<endl;
-} 
-signed main()
-{
-  cin.tie(0); cout.tie(0);
-  int t;cin>>t;while(t--) solve();
+    
+    cout << (r_max - l_min) * (n - 1) << endl;
+}
+
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    
+    lli t;
+    cin >> t;
+    while (t--) solve();
+    
+    return 0;
 }
