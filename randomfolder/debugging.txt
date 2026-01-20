@@ -1,4 +1,4 @@
-    1. Use of break statement whenever necessary.
+1. Use of break statement whenever necessary.
 2. Make a base case during recursion.
 3. Visualize the code in you mind how is it running and everything
 4. Never use concatenation inside loop ,tle happens
@@ -26,3 +26,4 @@
 \n is caused while taking int,double,char as an input!
 22. Use cout flush whenever necessary and avoid using endl as it explicitly flush \
 23. Run time error can also be caused if defining the large size array of 10^10 
+24. Don't initialize array with n+1 , if you are using upper or lower bound in the array

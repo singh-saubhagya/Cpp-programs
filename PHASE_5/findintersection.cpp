@@ -25,7 +25,7 @@ void solve()
     int x;
     cin>>x;
     node * temp= new node(x);
-    if(head1==nullptr)
+    if(head1==nullptr )
     {
         head1=temp;
         prev=head1;
